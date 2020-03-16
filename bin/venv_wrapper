@@ -33,7 +33,6 @@ rmvenv() {
     then
       echo "Please provide venv name"
     else
-      deactivate
       rm -r $VENV_HOME/$1
   fi
 }
