@@ -3,5 +3,7 @@
 PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:$PATH"
 
 # User path
-PATH="~/bin:$PATH"
+PATH="$HOME/bin:$PATH"
 export PATH
+
+source $HOME/bin/venv_wrapper
